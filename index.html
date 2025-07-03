@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Solutions | Professional Website Creation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg py-4">
+        <div class="container  mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-600">Innovader Technologies</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#services" class="hover:text-indigo-600 transition">Services</a>
+                <a href="#portfolio" class="hover:text-indigo-600 transition">Portfolio</a>
+                <a href="#testimonials" class="hover:text-indigo-600 transition">Testimonials</a>
+                <a href="#calculator" class="hover:text-indigo-600 transition">Calculator</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+            </div>
+            <button class="md:hidden">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20 homePage">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Get a Website That Converts Visitors into Customers</h1>
+                <p class="text-xl mb-8">Struggling to Get Clients Online? Your Website Might Be the Problem. Launch Your Dream Website in 5 Days — Without Tech Hassles</p>
+                <div class="space-x-4">
+                    <a href="#contact" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">Get Started</a>
+                    <a href="#portfolio" class="border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition inline-block">See Our Work</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="./assets/home3.png" alt="Professional web designers collaborating on website mockups in a modern office" class="rounded-lg shadow-2xl animate-float">
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <!-- <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <div class="flex items-center">
+                    <i class="fas fa-check-circle text-3xl text-green-500 mr-3"></i>
+                    <span class="text-lg font-medium">100+ Projects Completed</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-star text-3xl text-yellow-400 mr-3"></i>
+                    <span class="text-lg font-medium">4.9/5 Average Rating</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-clock text-3xl text-indigo-500 mr-3"></i>
+                    <span class="text-lg font-medium">Fast Turnaround</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Services -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Web Development Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:border-indigo-300 transition">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-rocket text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Landing Pages</h3>
+                    <p class="text-gray-600 mb-4">High-converting landing pages designed to capture leads and drive sales for your marketing campaigns.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Mobile-optimized designs
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Fast loading speeds
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>A/B testing integration
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-indigo-600 font-semibold hover:text-indigo-800 transition">Learn more →</a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:border-indigo-300 transition">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-home text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Real Estate Websites</h3>
+                    <p class="text-gray-600 mb-4">Powerful property showcase platforms with IDX integration, property search, and lead capture systems.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Property listings management
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Mortgage calculators
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Virtual tour integration
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-indigo-600 font-semibold hover:text-indigo-800 transition">Learn more →</a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:border-indigo-300 transition">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-briefcase text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Business Websites</h3>
+                    <p class="text-gray-600 mb-4">Complete business websites with CMS integration, appointment booking, and e-commerce capabilities.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Content management
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>SEO optimized
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>Analytics dashboard
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-indigo-600 font-semibold hover:text-indigo-800 transition">Learn more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">Recent Projects</h2>
+            <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Explore our portfolio showcasing diverse website designs across different industries.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/roofing.png" alt="Modern real estate website showing property listings with high-quality images and search filters" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Roofing Empires</h3>
+                        <p class="text-gray-600 mb-4">Complete property showcase platform with Contact Form Integration and SEO implementation</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">React</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">WordPress</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">IDX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/shpoorji.png" alt="Sleek marketing landing page for SaaS product with bold CTA buttons and social proof elements" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Shapoorji Palonji</h3>
+                        <p class="text-gray-600 mb-4">High-converting marketing landing page with CTA variations.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Analytics</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">A/B Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/foodDel.png" alt="Professional corporate website for law firm with clean typography and contact form" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Restaurent Delivery</h3>
+                        <p class="text-gray-600 mb-4">Food delivery platform to help restaurants expand their reach, streamline orders, and boost revenue through digital transformation.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Vue.js</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">CMS</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Appointment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/rentup.png" alt="Professional corporate website for law firm with clean typography and contact form" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">RentUP</h3>
+                        <p class="text-gray-600 mb-4">Business website with appointment renting properties and client portal.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Vue.js</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">CMS</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Appointment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5  -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/yugen.png" alt="Professional corporate website for law firm with clean typography and contact form" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">La Mandre</h3>
+                        <p class="text-gray-600 mb-4"> La Mandre property landing page to showcase premium real estate listings with a focus on elegant visuals, lead generation, and mobile-first experience to drive client inquiries and conversions</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Vue.js</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">CMS</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Appointment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                    <img src="./assets/innovader.png" alt="Professional corporate website for law firm with clean typography and contact form" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Innovader Technologies</h3>
+                        <p class="text-gray-600 mb-4">Corporate business website with appointment booking and client portal.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Vue.js</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">CMS</span>
+                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Appointment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">What Our Clients Say</h2>
+            <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Don't just take our word for it - hear what our clients have to say about working with us.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah Johnson</h4>
+                            <p class="text-gray-600 text-sm">Marketing Director</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"Our conversion rates skyrocketed after WebCraft Studios redesigned our landing pages. The team understood exactly what we needed and delivered beyond expectations."</p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <div class="bg-indigo-50 rounded-lg p-4 mt-4">
+                        <p class="text-indigo-700 text-sm font-medium">Conversion Rate: <span class="font-bold">+68%</span></p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Michael Torres</h4>
+                            <p class="text-gray-600 text-sm">Real Estate Broker</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"The property website they built transformed our business. Lead capture is seamless, and our clients love the intuitive search functionality."</p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <div class="bg-indigo-50 rounded-lg p-4 mt-4">
+                        <p class="text-indigo-700 text-sm font-medium">Leads Generated: <span class="font-bold">245/month</span></p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-indigo-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Lisa Chen</h4>
+                            <p class="text-gray-600 text-sm">Small Business Owner</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6">"As someone with no tech background, I was nervous about building a website. WebCraft made the process so easy and delivered exactly what I envisioned."</p>
+                    <div class="flex">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star-half-alt text-yellow-400"></i>
+                    </div>
+                    <div class="bg-indigo-50 rounded-lg p-4 mt-4">
+                        <p class="text-indigo-700 text-sm font-medium">Revenue Impact: <span class="font-bold">+42% first year</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20 gradient-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Build Your Website?</h2>
+                    <p class="text-xl mb-8">Fill out the form and we'll get back to you within 24 hours to discuss your project.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 rounded-full p-3 mr-4">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium">Call Us</p>
+                                <p class="text-indigo-100">(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 rounded-full p-3 mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium">Email Us</p>
+                                <p class="text-indigo-100">contact@webcraftstudios.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 rounded-full p-3 mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="font-medium">Visit Us</p>
+                                <p class="text-indigo-100">123 Web Street, San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 bg-white rounded-xl shadow-xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Get a Free Quote</h3>
+                    <form id="contact-form">
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="name">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="email">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="project-type">Project Type</label>
+                            <select id="project-type" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="">Select Project Type</option>
+                                <option value="landing-page">Marketing Landing Page</option>
+                                <option value="real-estate">Real Estate Website</option>
+                                <option value="business">Business Website</option>
+                                <option value="ecommerce">E-commerce Store</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="budget">Project Budget ($)</label>
+                            <select id="budget" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                                <option value="">Select Budget Range</option>
+                                <option value="<1000">Less than $1,000</option>
+                                <option value="1000-3000">$1,000 - $3,000</option>
+                                <option value="3000-5000">$3,000 - $5,000</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000+">$10,000+</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 font-medium mb-2" for="message">Project Details</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg transition">
+                            Get Your Free Consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <button class="flex justify-between items-center w-full text-left group">
+                        <h3 class="text-xl font-semibold group-hover:text-indigo-600 transition">How long does it take to build a website?</h3>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform transform group-focus:rotate-180"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600">
+                        <p>The timeline depends on the project scope and complexity. Simple landing pages can be completed in 1-2 weeks, while complex real estate platforms may take 4-8 weeks. We'll provide a detailed timeline after our initial consultation.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <button class="flex justify-between items-center w-full text-left group">
+                        <h3 class="text-xl font-semibold group-hover:text-indigo-600 transition">Do you provide hosting and maintenance?</h3>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform transform group-focus:rotate-180"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600">
+                        <p>Yes, we offer comprehensive hosting solutions with 99.9% uptime guarantees and ongoing maintenance packages that include security updates, content updates, and performance optimization.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <button class="flex justify-between items-center w-full text-left group">
+                        <h3 class="text-xl font-semibold group-hover:text-indigo-600 transition">Can you migrate my existing website?</h3>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform transform group-focus:rotate-180"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600">
+                        <p>Absolutely! We specialize in website migrations and can transfer your existing content while improving design and functionality. We ensure zero downtime during the migration process.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <button class="flex justify-between items-center w-full text-left group">
+                        <h3 class="text-xl font-semibold group-hover:text-indigo-600 transition">Do you offer SEO services?</h3>
+                        <i class="fas fa-chevron-down text-indigo-600 transition-transform transform group-focus:rotate-180"></i>
+                    </button>
+                    <div class="mt-4 text-gray-600">
+                        <p>Yes, all our websites include basic SEO optimization (metadata, speed optimization, mobile responsiveness). We also offer comprehensive SEO packages including keyword research, content strategy, and ongoing optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Online Presence?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Take the first step towards a website that drives results for your business.</p>
+            <a href="#contact" class="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">Get Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Column 1 -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">WebCraft Studios</h3>
+                    <p class="mb-4 text-gray-400">Professional web development solutions tailored to your business needs.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div>
+                    <h4 class="font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Landing Pages</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Real Estate Websites</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Business Websites</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">E-commerce Stores</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div>
+                    <h4 class="font-bold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Portfolio</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div>
+                    <h4 class="font-bold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-sm text-gray-400 text-center">
+                <p>&copy; 2023 WebCraft Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
